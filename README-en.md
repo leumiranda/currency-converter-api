@@ -1,8 +1,3 @@
----
-
-### **README em Inglês (README-en.md)**
-
-```markdown
 # 🌍 Currency Converter API
 
 > **Simple, powerful, and reliable!** An API for real-time currency conversion using an external exchange rate API. 🚀
@@ -27,7 +22,8 @@
 
 ### 2️⃣ Environment Variables
 Create a **`.env`** file in the root of the project and add:
-```env
+```
+env
 PORT=3000
 MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/currencyDB?retryWrites=true&w=majority
 EXCHANGE_API_KEY=YOUR_EXTERNAL_API_KEY
@@ -35,6 +31,7 @@ EXCHANGE_API_KEY=YOUR_EXTERNAL_API_KEY
     MONGO_URI: Connection string generated in MongoDB Atlas.
     EXCHANGE_API_KEY: API key for the external exchange rate service.
 
+```
 3️⃣ Install Dependencies
 
 In the terminal, run:
@@ -74,4 +71,4 @@ You can test it using Insomnia or directly in the browser!
 
 Contributions are welcome! Fork the repo and submit your PR.
 
-Read the documentation in Portuguese here 👉 README em Português.
+Read the documentation in Portuguese here 👉 [README - BR](./README-pt.md).
