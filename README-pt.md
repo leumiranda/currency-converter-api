@@ -22,12 +22,14 @@
 
 ### 2️⃣ Variáveis de Ambiente
 Crie um arquivo **`.env`** na raiz do projeto e adicione:
-```env
+```
+env
 PORT=3000
 MONGO_URI=mongodb+srv://<usuario>:<senha>@cluster.mongodb.net/currencyDB?retryWrites=true&w=majority
 EXCHANGE_API_KEY=CHAVE_DA_API_EXTERNA
     MONGO_URI: String de conexão gerada no MongoDB Atlas.
     EXCHANGE_API_KEY: Chave da API externa para obter as taxas de câmbio.
+```
 
 3️⃣ Instale as Dependências
 
@@ -68,4 +70,4 @@ Você pode testar no Insomnia ou diretamente no navegador!
 
 Contribuições são bem-vindas! Faça um fork e envie seu PR.
 
-Leia a documentação em inglês aqui 👉 README em Inglês.
+Leia a documentação em inglês aqui 👉 [README - EN](./README-en.md).
